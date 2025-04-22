@@ -1,6 +1,11 @@
 import React from 'react'
 import scaleImage from '../../../public/scale.png'
 import Hero from '@/components/Hero'
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'castle',
+}
 
 function Scale() {
   return (
