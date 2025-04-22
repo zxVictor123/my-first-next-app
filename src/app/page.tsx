@@ -1,12 +1,10 @@
 import React from 'react'
-import Image from 'next/image'
 import homeImage from '../../public/home.png'
+import Hero from '@/components/Hero'
+
 function Home() {
   return (
-    <div>
-      <Image src={homeImage} alt="alt" className='w-full ' />
-      Home
-    </div>
+    <Hero imageSrc={homeImage} imageAlt='home' content='The stream flows through the desolate year' gradientColor='from-orange-200/50'/>
   )
 }
 

@@ -8,12 +8,12 @@ const Header= () =>  {
   const pathname = usePathname()
   // 跳转链接数据
   const LinkData = [
-    {name: 'Performance',link: '/performance'},
-    {name: 'Reliability',link: '/reliability'},
-    {name: 'Scale',link: '/scale'},
+    {name: 'corridor',link: '/performance'},
+    {name: 'village',link: '/reliability'},
+    {name: 'castle',link: '/scale'},
   ]
   return (
-    <div className='absolute w-full'>
+    <div className='absolute w-full z-10'>
       <div className=' flex justify-between py-8  container mx-auto text-white'>
           <Link href="/" className='text-3xl font-bold'>Home</Link>
           <div className='flex gap-5 text-xl'>

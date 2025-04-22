@@ -1,12 +1,10 @@
 import React from 'react'
-import Image from 'next/image'
 import performanceImage from '../../../public/performance.png'
+import Hero from '@/components/Hero'
+
 function Performance() {
   return (
-    <div>
-      <Image src={performanceImage} alt="alt" className='w-full h-full' />
-      Home
-    </div>
+    <Hero imageSrc={performanceImage} imageAlt='performance' content='Leaving home to pursue something' gradientColor='from-green-300/50' />
   )
 }
 

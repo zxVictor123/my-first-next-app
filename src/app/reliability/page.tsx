@@ -1,12 +1,10 @@
 import React from 'react'
-import Image from 'next/image'
 import reliabilityImage from '../../../public/reliability.png'
+import Hero from '@/components/Hero'
+
 function Reliability() {
   return (
-    <div>
-      <Image src={reliabilityImage} alt="alt" className='w-full h-full' />
-      Home
-    </div>
+    <Hero imageSrc={reliabilityImage} imageAlt='reliability' content='Where will it lead' gradientColor='from-blue-300/50'/>
   )
 }
 

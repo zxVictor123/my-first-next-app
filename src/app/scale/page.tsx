@@ -1,12 +1,10 @@
 import React from 'react'
-import Image from 'next/image'
 import scaleImage from '../../../public/scale.png'
+import Hero from '@/components/Hero'
+
 function Scale() {
   return (
-    <div>
-      <Image src={scaleImage} alt="alt" className='w-full h-full' />
-      Home
-    </div>
+    <Hero imageSrc={scaleImage} imageAlt='scale' content='May there be gentle and dreams' gradientColor='from-pink-300/30'/>
   )
 }
 
