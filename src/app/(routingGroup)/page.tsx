@@ -1,5 +1,5 @@
 import React from "react";
-import homeImage from "../../public/home.png";
+import homeImage from '../../../public/home.png'
 import Hero from "@/components/Hero";
 import type { Metadata } from "next";
 
