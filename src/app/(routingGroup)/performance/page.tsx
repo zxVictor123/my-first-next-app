@@ -1,5 +1,5 @@
 import React from "react";
-import performanceImage from "../../../public/performance.png";
+import performanceImage from "../../../../public/performance.png";
 import Hero from "@/components/Hero";
 import type { Metadata } from "next";
 
